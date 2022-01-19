@@ -7,7 +7,7 @@ const buttonVariant = {
   hover: {
     scale: 1.1,
     textShadow: "0px 0px 8px rgba(255,255,255)",
-    boxShadow: "0px 0px 8px rgba(255,255,255)",
+    boxShadow: "0px 0px 80px rgba(255,255,255)",
     transition: {
       duration: 0.3,
       yoyo: Infinity,
@@ -21,7 +21,7 @@ const containerVariant = {
   },
   visible: {
     opacity: 1,
-    transition: { delay: 1.5, duration: 1.5 },
+    transition: { delay: 0.5, duration: 2.5 },
   },
   exit: {
     x: "-100vw",
@@ -40,10 +40,10 @@ const Home = () => {
       animate="visible"
       exit="exit"
     >
-      <h2>Welcome to Jon's Music THe</h2>
+      <h2>Welcome to an Animated Way to Plan Your Project!</h2>
       <Link to="/base">
         <motion.button variants={buttonVariant} whileHover="hover">
-          Let's Plan For a Project!
+          Click to Start!
         </motion.button>
       </Link>
       <Loader />
