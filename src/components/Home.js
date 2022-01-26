@@ -40,10 +40,10 @@ const Home = () => {
       animate="visible"
       exit="exit"
     >
-      <h2>Welcome to an Animated Way to Plan Your Project!</h2>
+ 
       <Link to="/base">
         <motion.button variants={buttonVariant} whileHover="hover">
-          Click to Start!
+          Click to Order!
         </motion.button>
       </Link>
       <Loader />

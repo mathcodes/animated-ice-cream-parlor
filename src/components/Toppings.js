@@ -32,12 +32,15 @@ const containerVariant = {
 const Toppings = ({ addTopping, pizza }) => {
   let toppings = [
    
-    "Web Application",
-    "Mobile Application",
-    "eCommerce Website",
-    "Blog",
-    "Social Network",
-    "Gaming/VR"
+    "chocolate chips",
+    "cherries",
+    "sour patch kids",
+    "caramel",
+    "reese's peanut butter cup",
+    "chocolate syrup",
+    "caramel drizzle",
+    "sprinkles",
+    "nuts"
   ];
 
   return (

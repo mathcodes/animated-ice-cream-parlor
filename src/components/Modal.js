@@ -41,9 +41,9 @@ export default function Modal({ showModal, setShowModal }) {
               initial="hidden"
               animate="visible"
             >
-              <p>Want to make plan for another project?</p>
+              <p>Want to make another order?</p>
               <Link to="/">
-                <button>Plan Your Project!</button>
+                <button>I'm ready!!!</button>
               </Link>
             </motion.div>
           </motion.div>

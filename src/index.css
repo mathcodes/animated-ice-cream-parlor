@@ -1,10 +1,6 @@
 /* fonts */
-@font-face {
-  font-family: "Quicksand";
-  src: url("/Quicksand-Light.woff2") format("woff2"),
-    url("/Quicksand-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* reset & common styles */
@@ -20,7 +16,7 @@ div {
   margin: 0;
   padding: 0;
   color: white;
-  font-family: "Quicksand";
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
   list-style-type: none;
   text-decoration: none;
@@ -71,6 +67,11 @@ button {
   cursor: pointer;
 }
 
+.title{
+  text-align:center;
+  font-size: 2rem;
+}
+
 /* header */
 header {
   display: flex;
@@ -80,7 +81,7 @@ header {
 header .title {
   flex-grow: 1;
   margin-left: 20px;
-  font-size: 0.6em;
+  font-size: 2em;
 }
 header h1 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -162,9 +163,31 @@ li span.active::before {
 }
 
 .loader {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   margin: 40px auto;
   border-radius: 50%;
-  background: #fff;
+  background:violet;
+  border: black 3px solid;
 }
+
+
+.animate{
+  border:inset 3px white;
+  padding: .2rem;
+  width: fit-content;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.animate:hover{
+  border:inset 3px white;
+  padding: .2rem;
+  width: fit-content;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:white;
+  color:#0082c8;
+}
+

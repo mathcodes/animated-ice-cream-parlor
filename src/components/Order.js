@@ -44,16 +44,16 @@ const Order = ({ pizza, setShowModal }) => {
       animate="visible"
       exit="exit"
     >
-      <h2>Good thinking! Be sure to share your project when its complete!</h2>
+      <h2>Yum!!</h2>
 
       <motion.p variants={childVariant}>
-        You are using a {pizza.base} stack to build the following types of projects:
-      </motion.p>
-      <motion.div variants={childVariant}>
+        Enjoy your ice cream in a {pizza.base} with ... <motion.div variants={childVariant}>
         {pizza.toppings.map((topping) => (
-          <div key={topping}>{topping}</div>
+          <span key={topping}>• {topping} </span>
         ))}
       </motion.div>
+      </motion.p>
+      
     </motion.div>
   );
 };

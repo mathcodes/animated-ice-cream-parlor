@@ -35,12 +35,10 @@ const buttonVariant = {
 };
 
 const Base = ({ addBase, pizza }) => {
-  const bases = [    "MEAN",
-  "MERN",
-  "MEVN",
-  "LAMP",
-  "Serverless",
-  "Flutter"
+  const bases = [    "Cone",
+  "Waffle Cone",
+  "Cup",
+  "Bucket"
 ];
 
   return (
@@ -51,7 +49,7 @@ const Base = ({ addBase, pizza }) => {
       animate="visible"
       exit="exit"
     >
-      <h3>Step 1: Choose Your Stack</h3>
+      <h3>Step 1: Pick your container.</h3>
       <ul>
         {bases.map((base) => {
           let spanClass = pizza.base === base ? "active" : "";
