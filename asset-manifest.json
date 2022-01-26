@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/animated-ice-cream-parlor/static/css/main.fa43fe42.chunk.css",
+    "main.js": "/animated-ice-cream-parlor/static/js/main.2a80f99d.chunk.js",
+    "main.js.map": "/animated-ice-cream-parlor/static/js/main.2a80f99d.chunk.js.map",
+    "runtime-main.js": "/animated-ice-cream-parlor/static/js/runtime-main.c82f634b.js",
+    "runtime-main.js.map": "/animated-ice-cream-parlor/static/js/runtime-main.c82f634b.js.map",
+    "static/js/2.ba54722c.chunk.js": "/animated-ice-cream-parlor/static/js/2.ba54722c.chunk.js",
+    "static/js/2.ba54722c.chunk.js.map": "/animated-ice-cream-parlor/static/js/2.ba54722c.chunk.js.map",
+    "index.html": "/animated-ice-cream-parlor/index.html",
+    "precache-manifest.707a166d370027351bb130bfba961460.js": "/animated-ice-cream-parlor/precache-manifest.707a166d370027351bb130bfba961460.js",
+    "service-worker.js": "/animated-ice-cream-parlor/service-worker.js",
+    "static/css/main.fa43fe42.chunk.css.map": "/animated-ice-cream-parlor/static/css/main.fa43fe42.chunk.css.map",
+    "static/js/2.ba54722c.chunk.js.LICENSE.txt": "/animated-ice-cream-parlor/static/js/2.ba54722c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c82f634b.js",
+    "static/js/2.ba54722c.chunk.js",
+    "static/css/main.fa43fe42.chunk.css",
+    "static/js/main.2a80f99d.chunk.js"
+  ]
+}
