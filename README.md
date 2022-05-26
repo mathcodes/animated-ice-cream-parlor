@@ -6,7 +6,9 @@
 
 <img src="./framerIceCream.gif" width="80%" />
 
-## Description: This is a great app to get started usign some interesting animations Framer has to offer. Notice the use of buttons to toggle the state of animation, and how fluid the translations are. 
+## Description: 
+
+This is a great app to get started with what Framer has to offer. Notice the use of buttons to toggle the state of animation, and how fluid the translations are. 
 
 ## Usage
 Get the repo on your local machine (fork, clone, download), and use the following commands:
